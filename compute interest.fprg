@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Sathyan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-11 03:02:24 PM"/>
+        <attribute name="created" value="U2F0aHlhbjtERVNLVE9QLVJRUDFQSzk7MjAyMy0wOS0wNDswMjowNzoyNiBQTTszMDk2"/>
+        <attribute name="edited" value="U2F0aHlhbjtERVNLVE9QLVJRUDFQSzk7MjAyMy0wOS0xMTswMzowMjoyNCBQTTs0OzMxOTk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="amount, years, rate, computeinterest" type="Integer" array="False" size=""/>
+            <output expression="&quot;enter value of amount,years,rate&quot;" newline="True"/>
+            <input variable="amount"/>
+            <input variable="years"/>
+            <input variable="rate"/>
+            <assign variable="computeinterest" expression="(amount*years*rate)/100"/>
+            <output expression="&quot;the compute interest is:&quot; &amp; computeinterest" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
